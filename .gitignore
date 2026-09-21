@@ -12,6 +12,7 @@ models/*.pt
 models/*.pth
 models/*.zip
 models/*.tflite
+!models/yamnet.tflite
 models/*.json
 models/.panns-runtime/
 
