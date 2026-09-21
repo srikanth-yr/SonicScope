@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Raw datasets
+data/raw/**/*.wav
+data/.downloads/
+
+# Model files
+models/*.pt
+models/*.pth
+models/*.zip
+models/*.tflite
+models/*.json
+models/.panns-runtime/
+
+# Keep the custom trained model
+!models/battlefield_sound_cnn.pt
+!models/battlefield_sound_cnn.json
+
+# Keep only these sample audio files
+!data/raw/footsteps/esc50_1-155858-A-25.wav
+!data/raw/gunshots/sesa_gunshot_000.wav

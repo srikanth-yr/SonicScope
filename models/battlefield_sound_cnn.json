@@ -1,0 +1,12 @@
+{
+  "classes": [
+    "background",
+    "footsteps",
+    "gunshots"
+  ],
+  "thresholds": {
+    "footsteps": 0.432,
+    "gunshots": 0.751
+  },
+  "validation_accuracy": 0.8833
+}
